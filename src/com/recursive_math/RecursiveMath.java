@@ -8,7 +8,7 @@ public class RecursiveMath {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    LinkedList<String> operationsList = new LinkedList<String>(Arrays.stream(scanner.nextLine().split(" ")).toList());
+    LinkedList<String> operationsList = new LinkedList<>(Arrays.stream(scanner.nextLine().split(" ")).toList());
 
     while (operationsList.size() != 1)
       operationsList = SolveOperation(operationsList);
