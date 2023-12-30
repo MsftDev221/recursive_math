@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="recursive_math:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/recursive_math_jar</output-path>
+    <root id="archive" name="recursive_math.jar">
+      <element id="module-output" name="recursive_math" />
+    </root>
+  </artifact>
+</component>
