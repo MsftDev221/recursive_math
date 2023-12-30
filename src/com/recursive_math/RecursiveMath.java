@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class RecursiveMath {
+
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
