@@ -5,10 +5,10 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class RecursiveMath {
-
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
+    System.out.println("What operation would you like solved?");
     LinkedList<String> operationsList = new LinkedList<>(Arrays.stream(scanner.nextLine().split(" ")).toList());
 
     while (operationsList.size() != 1)
